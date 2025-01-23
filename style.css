@@ -59,16 +59,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
-}
-
-.item {
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
 .item img {
-  width: 100%;
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .item p {
@@ -77,6 +74,7 @@ header {
   line-height: 4.125px;
   color: #000000;
   padding-top: 1rem;
+  margin-left: 1rem;
 }
 
 footer {
